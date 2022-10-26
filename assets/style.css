@@ -1,0 +1,26 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: light;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    /*flex: 1 0 100px;*/
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.nav header {
+    padding: 10px;
+    background: #13293d;
+    color: #fff;
+}
