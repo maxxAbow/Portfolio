@@ -25,9 +25,15 @@ nav header {
     border-style: solid;
 }
 
-nav img {
-    transform: scale(0.09,0.09);
-    margin: 3px;
+.section {
+    display: inline-block;
+}
+
+.portrait img {
+    transform: scale(0.09,0.09);;
+    border-collapse: collapse;
+    display: inline-block;
+    float: center;
 }
 
 .woven-item img {
@@ -38,9 +44,11 @@ nav img {
 .painted-item img {
     transform: scale(0.05,0.05);
     float: left;
+    display: inline-block;
 }
 
 .digital-item img {
     transform: scale(0.25,0.25);
     float: left;
+    display: inline-block;
 }
