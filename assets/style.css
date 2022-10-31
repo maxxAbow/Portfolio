@@ -9,46 +9,39 @@ body {
     text-align: center;
 }
 
-nav {
+a {
     display: flex;
-    flex-wrap: no-wrap;
     margin-top: 2%;
     padding: 5px;
-    text-align: center;
     border-width: 1px;
-}
-
-nav header {
     padding: 5px;
-    background: #13293d;
+    max-width:fit-content;
+    background: #924802;
     color: #fff;
     border-style: solid;
 }
 
-.section {
+.portrait img{
+    height: 150px;
+    margin: 20px;
+    padding: 5px;
+    border: 5px solid rgb(50, 61, 155);
+}
+
+main {
     display: inline-block;
 }
 
-.portrait img {
-    transform: scale(0.09,0.09);;
-    border-collapse: collapse;
-    display: inline-block;
-    float: center;
+main img {
+    width: 200px;
+    margin: 20px;
+    padding: 5px;
+    border: 5px solid rgb(50, 61, 155);
 }
 
 .woven-item img {
-    transform: scale(0.5,0.5);
-    float: left;
-}
-
-.painted-item img {
-    transform: scale(0.05,0.05);
-    float: left;
-    display: inline-block;
-}
-
-.digital-item img {
-    transform: scale(0.25,0.25);
-    float: left;
-    display: inline-block;
+    height: 500px;
+    margin: 20px;
+    padding: 5px;
+    border: 5px solid rgb(50, 61, 155);
 }
