@@ -10,26 +10,42 @@ body {
 }
 
 a {
-    display: flex;
+    float: left;
     margin-top: 2%;
-    padding: 5px;
+    margin-left: 325px;
+    padding: 10px;
     border-width: 1px;
-    padding: 5px;
     max-width:fit-content;
     background: #924802;
     color: #fff;
     border-style: solid;
+    display: block;
 }
 
-.portrait img{
-    height: 150px;
+.portrait img {
+    display: block;
+    float: right;
+    height: 200px;
     margin: 20px;
     padding: 5px;
-    border: 5px solid rgb(50, 61, 155);
+    border: 1px solid rgb(50, 61, 155);
 }
 
 main {
     display: inline-block;
+}
+
+div {
+    max-width:fit-content;
+    margin-left: 10%;
+    margin-bottom: 80px;
+}
+
+p {
+    float: right;
+    max-width: 500px;
+    font-size: 18px;
+    padding: 85px;
 }
 
 main img {
@@ -44,4 +60,10 @@ main img {
     margin: 20px;
     padding: 5px;
     border: 5px solid rgb(50, 61, 155);
+}
+
+#about-me {
+    display: inline-block;
+    max-width: none;
+    padding: 10px;
 }
