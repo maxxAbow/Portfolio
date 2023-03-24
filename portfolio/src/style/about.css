@@ -1,0 +1,8 @@
+.portrait img {
+    display: block;
+    float: right;
+    height: 200px;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid rgb(50, 61, 155);
+}

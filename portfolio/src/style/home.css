@@ -1,0 +1,16 @@
+.homeButton {
+    transition-duration: 0.4s;
+    border-color: #2d302d;
+    border-radius: 12px;
+    display: inline-block;
+    height: 400px;
+    width: 250px;
+    margin: 10px;
+}
+
+.homeButton:hover {
+    background-color: #2d302d;
+    border-color: white;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
