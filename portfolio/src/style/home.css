@@ -1,4 +1,4 @@
-.homeButton {
+#homeButton {
     transition-duration: 0.4s;
     border-color: #2d302d;
     border-radius: 12px;
@@ -8,7 +8,7 @@
     margin: 10px;
 }
 
-.homeButton:hover {
+#homeButton:hover {
     background-color: #2d302d;
     border-color: white;
     color: white;
