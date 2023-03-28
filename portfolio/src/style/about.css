@@ -3,6 +3,20 @@
     float: right;
     height: 200px;
     margin: 20px;
+    margin-right: 50px;
     padding: 5px;
     border: 1px solid rgb(50, 61, 155);
+}
+
+.aboutMe {
+    display: block;
+    margin-bottom: 2%;
+    color:cornflowerblue;
+}
+
+
+.aboutMe p {
+    width: 800px;
+    margin-left: 400px;
+    padding-bottom: 15%;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/physical.css';
 
 export default function Physical () {
     return (

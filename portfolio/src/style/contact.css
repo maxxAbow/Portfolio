@@ -1,0 +1,12 @@
+.contact {
+    float: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    border-width: 1px;
+    max-width:fit-content;
+    background-color: #957455;
+    color:white;
+    border-style: solid;
+    display: inline-block;
+}

@@ -1,13 +1,14 @@
 import React from 'react';
+import '../style/contact.css';
 
 export default function About() {
   return (
     <div>
-        <ul>
-            <li>Email: wovenbyspiders@gmail.com</li>
-            <li>Email: mbowman@welland.com</li>
-            <li href='https://www.linkedin.com/in/maxx-abigail-bowman-85b537193/'>LinkedIn: https://www.linkedin.com/in/maxx-abigail-bowman-85b537193/</li>
-        </ul>
+      <ul>
+            <p className='contact'>Email: wovenbyspiders@gmail.com</p><br/>
+            <p className='contact'>Email: mbowman@welland.com</p><br/>
+            <a className='contact' href='https://www.linkedin.com/in/maxx-abigail-bowman-85b537193/'>LinkedIn: https://www.linkedin.com/in/maxx-abigail-bowman-85b537193/</a>
+      </ul>
     </div>
   );
 }

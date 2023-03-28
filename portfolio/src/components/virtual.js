@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/virtual.css';
 
 export default function Virtual () {
     return(
